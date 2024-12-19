@@ -1,3 +1,4 @@
+import Button from './UI/Button';
 import ImgLogo from "../assets/logo.jpg";
 
 export default function Header() {
@@ -5,10 +6,10 @@ export default function Header() {
         <header id="main-header">
             <div id="title">
             <img src={ImgLogo} alt="A restaurant" />
-            <h1>REACTFOOD</h1>
+            <h1>ReactFood</h1>
         </div>
         <nav>
-            <button>Cart (0)</button>
+            <Button textOnly>Cart (0)</Button>
         </nav>
         </header> 
     )
